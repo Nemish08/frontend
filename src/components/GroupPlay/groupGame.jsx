@@ -6,7 +6,7 @@ import ProgressBarCom from "../ui/progress";
 import { useUser } from "../../context/UserContext";
 import { io } from "socket.io-client";
 
-const socket = io("https://backend-typewritter.onrender.com"); // Change to your backend URL
+const socket = io("https://nemish08-typewritter.hf.space"); // Change to your backend URL
 const { data } = typing_data[0];
 
 function GroupGame() {
